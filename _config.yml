@@ -245,3 +245,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+# Additional Configs
+host: 0.0.0.0
