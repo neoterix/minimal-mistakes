@@ -70,18 +70,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-105769092-1
 
 
 # Site Author
 author:
   name             : "Anthony Nguyen"
   avatar           : /assets/images/profile.png
-  bio              : "A lawyer turned product manager."
+  bio              : "Once an attorney that only counted his zeal for technology as a hobby, Anthony now consummates this passion as a product manager at intersection of tech and healthcare."
   location         : "Brooklyn, NY"
-  email            :
+  email            : "me@anthonynguyen.digital"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,7 +95,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : anthonytnguyen # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
