@@ -5,7 +5,7 @@ modified:
 author_profile: true
 permalink: /
 header:
-  image: /assets/images/brooklyn_pier.jpg
+  image: /assets/images/brooklyn_pier_2b.jpg
   image_description: "A description of the image"
   caption: "*Photo: Anthony Nguyen*"
 ---
