@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "anthonynguyen.digital"
 title_separator          : "-"
 name                     : "Anthony Nguyen"
-description              : "The personal website of Anthony Nguyen"
+description              : "Endlessly curious, pragmatic problem solver. Attorney-turned-product manager. The personal site of Anthony Nguyen."
 url                      : # http://100.115.92.2:4000 # http://anthonynguyen.digital
 baseurl                  : # "/" # the subpath of your site, e.g. "/blog"
 repository               : neoterix/neoterix.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -23,7 +23,7 @@ comments:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
+  facebook: 
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
@@ -81,7 +81,7 @@ author:
   avatar           : /assets/images/profile.png
   bio              : "Once an attorney that only treated his zeal for technology as a hobby, Anthony now consummates this passion as a product manager at intersection of tech and healthcare."
   location         : "Brooklyn, NY"
-  email            : "me@anthonynguyen.digital"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -174,8 +174,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate_path: blog/page:num/
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -236,7 +236,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/blog/"
       type: posts
     values:
       layout: single
