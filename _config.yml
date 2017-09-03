@@ -11,7 +11,7 @@ title                    : "anthonynguyen.digital"
 title_separator          : "-"
 name                     : "Anthony Nguyen"
 description              : "The personal website of Anthony Nguyen"
-url                      : http://100.115.92.2:4000 # http://anthonynguyen.digital
+url                      : # http://100.115.92.2:4000 # http://anthonynguyen.digital
 baseurl                  : # "/" # the subpath of your site, e.g. "/blog"
 repository               : neoterix/neoterix.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

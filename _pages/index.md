@@ -1,8 +1,8 @@
 ---
 layout: single
-title: Home
+title: Welcome to the Homepage of Anthony Nguyen
 modified:
-share: true
+author_profile: true
 permalink: /
 header:
   image: /assets/images/brooklyn_pier.jpg
