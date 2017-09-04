@@ -1,6 +1,6 @@
 ---
-layout: single
 title: This site is live!
+category: blog
 modified: Sunday, September 2, 2017
 excerpt: "My Labor Day weekend project was to spin up a personal website. Tada!"
 header:

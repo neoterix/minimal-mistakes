@@ -13,9 +13,22 @@ header:
 
 A few of my recent projects are highlighted below:
 
-## MTA transit thing
+## NYC MTA Subway Arrival Python Script 
 
-## this site
+As a part of my 
+
+## antonnguyen.digital
+
+This site that you're reading right now is 
+
+
+
+To Do List:
+
+* Rotating hero image
+* Contact form
+* Recent posts on landing page
+* 
 
 ## One Month ?
 
