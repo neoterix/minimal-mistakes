@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /about_/
   - title: "Writing"
     url: /writing/
   - title: "Projects"
-    url: /projects/
+    url: /projects_/
 #   - title: "Updates"
 #     url: /blog/
 #   - title: "Home"
