@@ -172,9 +172,9 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /news/:title/ # previously :categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: blog/page:num/
+paginate_path: /page:num/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
