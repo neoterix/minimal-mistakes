@@ -1,6 +1,7 @@
 ---
 title: This site is live!
 category: news
+tags: site
 modified: Tuesday, September 5, 2017
 excerpt: "My Labor Day weekend project was to spin up a personal website. Tada!"
 header:
