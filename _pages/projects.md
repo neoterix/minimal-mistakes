@@ -26,5 +26,6 @@ My adventures learning to code while jumping through all the hoops of doing so o
 
 ## AaaP: *anthonynguyen.digital* as a Project
 
-TBD
+My learnings on building *this very site* as a technology project. Choosing GitHub Pages, Jekyll, a theme, and the dozens of pitfalls along the way.
 
+Check out my discussion here: [http://anthonynguyen.digital/news/this-site-as-a-project/](http://anthonynguyen.digital/news/this-site-as-a-project/)

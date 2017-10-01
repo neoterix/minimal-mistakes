@@ -53,13 +53,6 @@
       {% endif %}
     </div>
   {% else %}
-    <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>-->
-    <!--<script>-->
-    <!--    var images = ['whirlpool_3000x750.jpg']-->
-    <!--     $('<img class="page__hero-image" src="assets/images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');-->
-    <!--</script>-->
-    <!--errr work in progress, October 1, 2017-->
-  
     <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
   {% if page.header.caption %}

@@ -32,7 +32,7 @@
     </h2>
     <!--Here's where I f*** with shit, adding in post date-->
     {% if post.date %}
-      <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; {{ post.date | date: "%B %-d, %Y" }}</p>
     {% endif %}
     <!--End effing with stuff-->
     {% if post.read_time %}
