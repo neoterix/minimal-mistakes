@@ -71,9 +71,9 @@ Other than continuing to consolidate my content here and getting myself to write
 *(Show off more of my photography, and get out of the business of hardcoding in new hero images into specific posts and pages)*
 * **Get post and tags and categories working**  
 *(Right now the tags and categories return 404s because the page generation is not set up for those yet... should be straightforward to do)*
-* **Email contact form**  
-*(Because Jekyll is a static site generator, email forms are not natively supported, so I'll need to figure out a web service-based solution)*
+* ~~**Email contact form**~~  *[Solved 10.15.2017!]*  
+~~*(Because Jekyll is a static site generator, email forms are not natively supported, so I'll need to figure out a web service-based solution)*~~ *(This one jumped the backlog thanks to stumbling across [reCAPTCHA Mailhide](https://www.google.com/recaptcha/mailhide/apikey). Thanks Google!)*
 * **Customize layout**  
-*(If I have time, I'd want to experiment a little with tweaking some of the margins, padding, make the mast head a little smaller, and experiment with different fonts. Also, Michael Rose recently added [color skinning](https://twitter.com/mmistakes/status/907691710058287104) to Minimal Mistakes... might be fun to try out)*
+* *(If I have time, I'd want to experiment a little with tweaking some of the margins, padding, make the mast head a little smaller, and experiment with different fonts. Also, Michael Rose recently added [color skinning](https://twitter.com/mmistakes/status/907691710058287104) to Minimal Mistakes... might be fun to try out)*
 * **Comments? Disqus?**  
 *(TBA)*

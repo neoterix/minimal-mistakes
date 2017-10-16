@@ -12,11 +12,11 @@ header:
 
 A few of my recent projects are highlighted below:
 
-## NYC MTA Subway Arrival Python Script 
+## AaaP: *anthonynguyen.digital* as a Project
 
-As a part of my [OneMonth](https://onemonth.com/courses/python) coursework, I decided to see if I could create a script that could access the New York City MTA subway real-time API. This a basic python script that reads the NYC MTA realtime feed API for subway data and outputs when the next arrival is for a given station. It was created as an self-directed educational exercise to build something from scratch and hopefully you might find it useful too!
+My learnings on building *this very site* as a technology project. Choosing GitHub Pages, Jekyll, a theme, and the dozens of pitfalls along the way.
 
-[*https://github.com/neoterix/nyc-mta-arrival-notify*](https://github.com/neoterix/nyc-mta-arrival-notify)
+Check out my discussion here: [http://anthonynguyen.digital/news/this-site-as-a-project/](http://anthonynguyen.digital/news/this-site-as-a-project/)
 
 ## Learning to Code on a Bone-Stock Chromebook
 
@@ -24,8 +24,11 @@ For the past month or so, I’ve been coding and doing some small development pr
 
 My adventures learning to code while jumping through all the hoops of doing so on a completely stock Chromebook: [*https://medium.com/@clumsycontraria/learning-to-code-on-a-bone-stock-chromebook-a7d0e75303bb*](https://medium.com/@clumsycontraria/learning-to-code-on-a-bone-stock-chromebook-a7d0e75303bb)
 
-## AaaP: *anthonynguyen.digital* as a Project
+## NYC MTA Subway Arrival Python Script 
 
-My learnings on building *this very site* as a technology project. Choosing GitHub Pages, Jekyll, a theme, and the dozens of pitfalls along the way.
+As a part of my [OneMonth](https://onemonth.com/courses/python) coursework, I decided to see if I could create a script that could access the New York City MTA subway real-time API. This a basic python script that reads the NYC MTA realtime feed API for subway data and outputs when the next arrival is for a given station. It was created as an self-directed educational exercise to build something from scratch and hopefully you might find it useful too!
 
-Check out my discussion here: [http://anthonynguyen.digital/news/this-site-as-a-project/](http://anthonynguyen.digital/news/this-site-as-a-project/)
+[*https://github.com/neoterix/nyc-mta-arrival-notify*](https://github.com/neoterix/nyc-mta-arrival-notify)
+
+
+
