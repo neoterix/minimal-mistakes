@@ -1,3 +1,5 @@
+<!--My investigatory notes-->
+<!--Something about how if there is some header image in place, then do things...-->
 {% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
 {% else %}
@@ -30,6 +32,19 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
+<!--Adding random banner image code 11/25-->
+
+
+<!--{% assign banner_index = site.time | date: "%s" | modulo: site.data.banners.size %}-->
+<!--{% assign random_banner = site.data.banners[rando]["file"] %}-->
+<!--{% assign random_banner = site.data.banners | sample %}-->
+<!--{% assign random_banner = site.data.banners | sample %}-->
+<!--{% assign banner_index = page.title.size | modulo: site.data.banners.size %}-->
+
+{% assign index = page.title.size | modulo: site.data.banners.size %}
+{% assign banner = site.data.banners[index]["file"] %}
+
+
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
@@ -59,8 +74,14 @@
     <!--     $('<img class="page__hero-image" src="assets/images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');-->
     <!--</script>-->
     <!--errr work in progress, October 1, 2017-->
-  
-    <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
+    
+    <!--This is where the banner image loads in, default code -->
+    <!--<img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">-->
+    
+    <img src="/assets/hero/{{ banner }}" alt="Hero Image © Anthony Nguyen" class="page__hero-image">
+    
+    
+    
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
