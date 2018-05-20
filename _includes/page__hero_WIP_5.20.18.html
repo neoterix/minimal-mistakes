@@ -1,3 +1,5 @@
+<!--My investigatory notes-->
+<!--Something about how if there is some header image in place, then do things...-->
 {% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
 {% else %}
@@ -30,6 +32,20 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
+<!--Adding random banner image code 11/25-->
+
+
+<!--{% assign banner_index = site.time | date: "%s" | modulo: site.data.banners.size %}-->
+<!--{% assign random_banner = site.data.banners[rando]["file"] %}-->
+<!--{% assign random_banner = site.data.banners | sample %}-->
+<!--{% assign random_banner = site.data.banners | sample %}-->
+<!--{% assign banner_index = page.title.size | modulo: site.data.banners.size %}-->
+
+{% assign index = page.title.size | modulo: site.data.banners.size %}
+<!--{% assign banner = site.data.banners[index]["file"] %}-->
+
+
+
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
@@ -53,7 +69,86 @@
       {% endif %}
     </div>
   {% else %}
-    <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
+    <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>-->
+    <!--<script>-->
+    <!--    var images = ['whirlpool_3000x750.jpg']-->
+    <!--     $('<img class="page__hero-image" src="assets/images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');-->
+    <!--</script>-->
+    <!--errr work in progress, October 1, 2017-->
+    
+    <!--This is where the banner image loads in, default code -->
+    <!--<img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">-->
+    
+    <!--OVERHEREGRANT-->
+    
+    <!--<img src="/assets/images/banners/{{ banner }}" alt="Page banner image © Anthony Nguyen" class="page__hero-image">-->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/assets/js/random-image.js"></script>
+    
+    <script>
+    $(function() {
+  images = [
+    '1.jpg',
+    '2.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg',
+    '6.jpg',
+    '7.jpg',
+    '8.jpg',
+    '9.jpg',
+    '10.jpg',
+    '11.jpg',
+    '12.jpg',
+    '13.jpg',
+    '14.jpg',
+    '15.jpg',
+    '16.jpg',
+    '17.jpg',
+    '18.jpg',
+  ];
+  i = Math.floor(Math.random()*images.length);
+  $('.page__hero-image2 img').attr('src', '/assets/images/banners/' + images[i]);   
+});
+    </script>
+    
+    <div class="page__hero-image2" class="page__hero-image">
+    
+    <!--Second go at the JS thing 11/28 pulling out to push site update-->
+<!--    <script type='text/javascript' src='assets/js/chickendinner.js'></script>-->
+<!--    <script>-->
+<!--    $('.js-chickendinner').chickenDinner({-->
+<!--    path: '/assets/images/banners/',-->
+<!--    fadeInTime:2500,-->
+<!--    TheImages: [-->
+<!--    '1.jpg',-->
+<!--    '2.jpg',-->
+<!--    '3.jpg',-->
+<!--    '4.jpg',-->
+<!--    '5.jpg',-->
+<!--    '6.jpg',-->
+<!--    '7.jpg',-->
+<!--    '8.jpg',-->
+<!--    '9.jpg',-->
+<!--    '10.jpg',-->
+<!--    '11.jpg',-->
+<!--    '12.jpg',-->
+<!--    '13.jpg',-->
+<!--    '14.jpg',-->
+<!--    '15.jpg',-->
+<!--    '16.jpg',-->
+<!--    '17.jpg',-->
+<!--    '18.jpg',-->
+<!--  ]-->
+<!--});-->
+<!--    </script>-->
+    
+<!--    <img class="js-chickendinner" src="#" alt=""/>-->
+    
+    
+    
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
