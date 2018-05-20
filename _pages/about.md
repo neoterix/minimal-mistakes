@@ -10,7 +10,7 @@ header:
 
 > Pragmatic problem solver. Relentless learner. Principled leader. Attorney-turned-product manager.
 
-Once an attorney that only treated his zeal for technology as a hobby, Anthony now consummates this passion as a product manager at the intersection of tech and healthcare.
+Once an attorney that only treated his zeal for technology as a hobby, Anthony now consummates this passion as a product manager at the intersection of data science, television, and advertising. *(with a prior stint in technology and healthcare!)*
 
 For more of my professional background, visit my [LinkedIn profile](https://www.linkedin.com/in/anthonytnguyen).
 
