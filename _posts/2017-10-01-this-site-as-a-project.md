@@ -9,7 +9,7 @@ excerpt: "My learnings on building this very site as a technology project. Choos
 header:
   image: /assets/images/brooklyn_pier_1500x375.jpg
   image_description: "Brooklyn Bridge Park pier, 2016"
-  caption: "[©2017](http://anthonynguyen.digital/)"
+  caption: "[©2017](https://anthonynguyen.digital/)"
 ---
 
 It turns out this site that you're reading right now is itself a pretty significant technology project for me— 

@@ -5,7 +5,7 @@ permalink: /projects/
 header:
   image: /assets/images/brooklyn_army_1500x375.jpg
   image_description: "Brooklyn Army Terminal warehouse"
-  caption: "[©2017](http://anthonynguyen.digital/)"
+  caption: "[©2017](https://anthonynguyen.digital/)"
 ---
 
 {% include toc title="Projects" %}

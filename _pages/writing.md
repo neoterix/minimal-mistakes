@@ -5,7 +5,7 @@ permalink: /writing/
 header:
   image: /assets/images/brooklyn_pier_1500x375.jpg
   image_description: "Brooklyn Bridge Park pier, 2016"
-  caption: "[©2017](http://anthonynguyen.digital/)"
+  caption: "[©2017](https://anthonynguyen.digital/)"
 ---
 
 {% include toc title="Categories" %}

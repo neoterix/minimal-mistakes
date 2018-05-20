@@ -7,7 +7,7 @@ modified: Tuesday, November 28, 2017
 header:
   image: /assets/images/brooklyn_pier_1500x375.jpg
   image_description: "Brooklyn Bridge Park pier, 2016"
-  caption: "[©2017](http://anthonynguyen.digital/)"
+  caption: "[©2017](https://anthonynguyen.digital/)"
 ---
 
 Over the weekend I picked out and processed over a dozen more personal photos to add a little flair to the site. With the assets in place, next is developing a way to take advantage of all of the banners without having to manually assign them to each page (as was the case).

@@ -173,7 +173,7 @@ sass:
 
 # Outputting
 permalink: /news/:title/ # previously :categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
