@@ -20,5 +20,5 @@ $(function() {
     '18.jpg',
   ];
   i = Math.floor(Math.random()*images.length);
-  $('.image-wrap img').attr('src', '/assets/images/banners/' + images[i]);   
+  $('.page__hero-image2 img').attr('src', '/assets/images/banners/' + images[i]);   
 });

@@ -42,7 +42,8 @@
 <!--{% assign banner_index = page.title.size | modulo: site.data.banners.size %}-->
 
 {% assign index = page.title.size | modulo: site.data.banners.size %}
-{% assign banner = site.data.banners[index]["file"] %}
+<!--{% assign banner = site.data.banners[index]["file"] %}-->
+
 
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
@@ -78,7 +79,42 @@
     <!--This is where the banner image loads in, default code -->
     <!--<img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">-->
     
-    <img src="/assets/images/banners/{{ banner }}" alt="Page banner image © Anthony Nguyen" class="page__hero-image">
+    <!--OVERHEREGRANT-->
+    
+    <!--<img src="/assets/images/banners/{{ banner }}" alt="Page banner image © Anthony Nguyen" class="page__hero-image">-->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/assets/js/random-image.js"></script>
+    
+    <script>
+    $(function() {
+  images = [
+    '1.jpg',
+    '2.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg',
+    '6.jpg',
+    '7.jpg',
+    '8.jpg',
+    '9.jpg',
+    '10.jpg',
+    '11.jpg',
+    '12.jpg',
+    '13.jpg',
+    '14.jpg',
+    '15.jpg',
+    '16.jpg',
+    '17.jpg',
+    '18.jpg',
+  ];
+  i = Math.floor(Math.random()*images.length);
+  $('.page__hero-image2 img').attr('src', '/assets/images/banners/' + images[i]);   
+});
+    </script>
+    
+    <div class="page__hero-image2" class="page__hero-image">
     
     <!--Second go at the JS thing 11/28 pulling out to push site update-->
 <!--    <script type='text/javascript' src='assets/js/chickendinner.js'></script>-->
@@ -110,7 +146,6 @@
 <!--    </script>-->
     
 <!--    <img class="js-chickendinner" src="#" alt=""/>-->
-    
     
     
     
