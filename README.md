@@ -1,4 +1,4 @@
-anthonynguyen.digital
+anthonynguyen.com
 ====================
 
 This is the homepage of Anthony Nguyen, utilizing the "minimal mistakes" theme:
