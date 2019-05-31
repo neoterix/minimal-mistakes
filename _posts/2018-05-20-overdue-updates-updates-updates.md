@@ -3,16 +3,16 @@ title: Overdue updates, updates, updates!
 category: news
 tags: 
 - site
-modified: Sunday, May 20, 2019
+modified: Sunday, May 20, 2018
 header:
   image: /assets/images/brooklyn_army_1500x375.jpg
   image_description: "Brooklyn Army Terminal warehouse"
-  caption: "[©2017](https://anthonynguyen.digital/)"
+  caption: "[©2017](https://anthonynguyen.com/)"
 ---
 
-Whew! 
+Whew! A lot has changed! 
 
-A lot has changed! Both personally and with this site!
+Both personally and with this site!
 
 In personal news, earlier this year I made the jump from product management in healthcare technology into product management at the intersection of data science, media, and television. I need to update a bunch of content on the site, but more on that later.
 
